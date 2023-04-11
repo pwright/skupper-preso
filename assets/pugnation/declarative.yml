@@ -1,0 +1,15 @@
+apiVersion: v1
+data:
+  cluster-local: "false"
+  console: "true"
+  flow-collector: "true"
+  console-authentication: internal
+  console-password: "rubble"
+  console-user: "barney"
+  name: my-site
+  router-console: "true"
+  service-controller: "true"
+  service-sync: "true"
+kind: ConfigMap
+metadata:
+  name: skupper-site

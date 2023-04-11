@@ -2,6 +2,9 @@
   ![image.png](../assets/skupper.png)
 - Acknowlegements
   ![🖼 mementes.png](../assets/mementes.png)
+- Networks
+	- ![🖼 image(20).png](../assets/image(20).png)
+	- ![🖼 image(9).png](../assets/image(9).png)
 - Maps
   
   provide a way to visualise the world, not graphs
@@ -54,7 +57,13 @@
 	- Scenario
 	  ![image.png](../assets/skupper-s.png)
 	  
-	  Pug based companies merge:
+	  Pug based company has two sites:
 	  
-	  * Pug Nation
-	  * Pug
+	  * Public cluster on AWS with web server
+	  * Private cluster behind firewall that hosts a greeting service.
+		- Demo
+		-
+		- ![image.png](../assets/image_1681234418566_0.png)
+		- ![image.png](../assets/image_1681234504589_0.png)
+		- ![image.png](../assets/image_1681234605757_0.png)
+		-
